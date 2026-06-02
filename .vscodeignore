@@ -1,0 +1,12 @@
+src/
+node_modules/
+.vscode/
+.vscode-test/
+tsconfig.json
+esbuild.mjs
+.eslintrc.json
+.gitignore
+**/*.map
+media/generate-icon.ps1
+docs/
+test/
