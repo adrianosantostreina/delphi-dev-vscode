@@ -11,12 +11,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AdrianosantosTreina/delphi-dev-vscode"
+    "url": "https://github.com/adrianosantostreina/delphi-dev-vscode"
   },
   "bugs": {
-    "url": "https://github.com/AdrianosantosTreina/delphi-dev-vscode/issues"
+    "url": "https://github.com/adrianosantostreina/delphi-dev-vscode/issues"
   },
-  "homepage": "https://github.com/AdrianosantosTreina/delphi-dev-vscode#readme",
+  "homepage": "https://github.com/adrianosantostreina/delphi-dev-vscode#readme",
   "galleryBanner": {
     "color": "#cc2d2d",
     "theme": "dark"
