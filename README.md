@@ -6,8 +6,19 @@ Transform Claude Code into a **senior Delphi expert** with code review, technica
 
 ## Requirements
 
-- [Claude Code VS Code Extension](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code) installed and configured
-- [delphi-dev](https://github.com/adrianosantostreina/delphi-dev) plugin installed in Claude Code
+This extension is a **front-end** for the delphi-dev Claude Code plugin. It needs **two** things to work:
+
+1. **Claude Code VS Code Extension** — [install from the marketplace](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code). This is installed automatically as a dependency when you install Delphi Dev.
+2. **delphi-dev plugin inside Claude Code** — this is a *Claude Code plugin*, **not** a VS Code extension, so it is **not** installed automatically. Install it once by running these two commands in the Claude Code chat:
+
+   ```text
+   /plugin marketplace add adrianosantostreina/delphi-dev
+   /plugin install delphi-dev@delphi-dev
+   ```
+
+   Source: [github.com/adrianosantostreina/delphi-dev](https://github.com/adrianosantostreina/delphi-dev)
+
+> **Without the delphi-dev plugin**, the snippets and editor defaults still work, but the sidebar/context-menu commands (Write, Review, Audit, Spec, TDD, New Project) will open Claude Code with a command it does not recognize. The extension shows a reminder with the install commands the first time this happens.
 
 ## Features
 

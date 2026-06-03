@@ -2,7 +2,7 @@
   "name": "delphi-dev-vscode",
   "displayName": "Delphi Dev for Claude Code",
   "description": "VS Code integration for the delphi-dev Claude Code plugin. Senior Delphi expert with code review, audit, TDD, and coding standards enforcement.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "adrianosantos",
   "author": {
     "name": "Adriano Santos",
